@@ -1,6 +1,6 @@
 # Tampere Food & Beverage Intelligence Platform
 
-**Capstone Project — LLM Fine-Tuning Course, University of Tampere**
+**Capstone Project — LLM Fine-Tuning Course, Tampere University**
 
 Build a multi-agent AI system that transforms restaurant menu photos into a searchable food intelligence database for Tampere, Finland.
 
@@ -32,22 +32,25 @@ Capture → Extract → Enrich → Store → Converse
 - **Python + asyncio** — Parallel processing
 - **FastAPI** — Web application backend
 
-### Pick One from Each Category
+### Pick One from Each Category / Or find a better one, these are just suggestions
 
 **LLM Provider:**
-- OpenAI GPT (gpt-4o / gpt-5)
-- Anthropic Claude (Haiku / Sonnet)
+- OpenAI GPT (gpt-5.2 ...)
+- Anthropic Claude (Opus / Haiku / Sonnet)
 - Ollama (Llama, Mistral — local)
+- other
 
 **Database:**
 - PostgreSQL
 - Neo4j
 - SQLite
+- other
 
 **Query/Retrieval Approach:**
-- LightRAG
+- Any RAG flavour
 - MCP (FastMCP)
 - Full Context Injection
+- other
 
 ## Performance & Cost Tracking
 
@@ -96,7 +99,7 @@ cp .env.example .env
 # Edit .env and add your OpenAI and Anthropic API keys
 ```
 
-**Important:** This is a BYOK (Bring Your Own Key) project. You need your own API keys for OpenAI and/or Anthropic.
+**Important:** This is a BYOK (Bring Your Own Key) project. You need your own API keys for OpenAI and/or Anthropic. Or the course will provide access
 
 ### Collect Your Data
 
@@ -111,7 +114,7 @@ Place your photos in the `images/` folder for lesson 10, and `images_watchfolder
 ## Recommended Sources
 
 1. Book: Agentic Artificial intelligence, by Pascal Bornet
-    https://www.adlibris.com/fi/kirja/agentic-artificial-intelligence-harnessing-ai-agents-to-reinvent-business-work-and-life-9789819816224
+    https://andor.tuni.fi/discovery/fulldisplay?docid=cdi_askewsholts_vlebooks_9789819815678&context=PC&vid=358FIN_TAMPO:VU1
 
 2. YT: How to Build AI Agents with PydanticAI (Beginner Tutorial) -
     https://www.youtube.com/watch?v=zcYtSckecD8
